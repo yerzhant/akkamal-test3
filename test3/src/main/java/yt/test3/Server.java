@@ -7,8 +7,6 @@ package yt.test3;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -31,12 +29,12 @@ import org.slf4j.LoggerFactory;
  */
 public class Server {
 
+    static final String HOME_DIR = "home";
+
     private static final String CONFIG_FILE_NAME = "app.conf";
     private static final String PORT = "port";
     private static final String USERNAME = "username";
     private static final String PASSWORD = "password";
-
-    private static final String HOME_DIR = "home";
 
     private static final String STARTUP_MESSAGE = "Starting server on port {}";
     private static final String SHUTDOWN_MESSAGE = "Shutting down...";
