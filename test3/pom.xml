@@ -75,9 +75,9 @@
                             <resources>
                                 <resource>
                                     <directory>src/main/misc</directory>
-                                    <includes>
+<!--                                    <includes>
                                         <include>app.conf</include>
-                                    </includes>
+                                    </includes>-->
                                 </resource>
                             </resources>
                         </configuration>

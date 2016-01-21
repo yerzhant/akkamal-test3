@@ -39,9 +39,6 @@
               <resources>
                 <resource>
                   <directory>src/main/misc</directory>
-                  <includes>
-                    <include>app.conf</include>
-                  </includes>
                 </resource>
               </resources>
             </configuration>
