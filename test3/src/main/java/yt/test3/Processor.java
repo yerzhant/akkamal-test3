@@ -70,7 +70,6 @@ public class Processor extends DefaultFtplet {
             log(fileName);
 
             if (fileNamePattern.matcher(request.getArgument()).matches()) {
-                System.out.println("1");
                 parse(fileName);
             }
         } catch (NoSuchAlgorithmException | XPathExpressionException ex) {
@@ -91,7 +90,6 @@ public class Processor extends DefaultFtplet {
             Map<String, Integer> m = new HashMap<>();
 
             for (int i = 0; i < l.getLength(); i++) {
-                System.out.println("2");
                 String name = l.item(i).getAttributes().getNamedItem(XPATH_ATTR_TO_SELECT).getNodeValue();
                 Integer q = m.get(name);
                 m.put(name, q == null ? 1 : q + 1);
