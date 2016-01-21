@@ -38,7 +38,7 @@ public class Server {
 
     private static final String STARTUP_MESSAGE = "Starting server on port {}";
     private static final String SHUTDOWN_MESSAGE = "Shutting down...";
-    private static final String HOME_DIR_IS_NOT_DIR = "\"home\" is not a directory";
+    private static final String HOME_DIR_IS_NOT_DIR = "\"" + HOME_DIR + "\" is not a directory";
 
     private static final Logger log = LoggerFactory.getLogger(Server.class);
 
