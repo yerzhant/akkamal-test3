@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author yerzhan
+ * @author yerzhan 123
  */
 public class Server {
 
